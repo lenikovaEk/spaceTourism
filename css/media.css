@@ -1,0 +1,438 @@
+@media (max-width: 1400px) {
+  .footer__inner {
+    justify-content: space-around;
+  }
+}
+
+
+@media (max-width: 1300px) {
+  .contacts__inner {
+    display: block;
+  }
+
+  .contacts__box {
+    width: 100%;
+  }
+
+  .contacts__guarantees {
+    margin: 0 auto;
+  }  
+}
+
+@media (max-width: 1110px){
+  .about {
+    text-align: center;
+  }
+
+  .about__img {
+    margin: 0 auto;
+  }
+
+  .about__content {
+    width: 100%;
+  }
+
+  .about__content-text {
+    display: block;
+  }
+
+  .about__content-text p {
+    width: 100%;
+  }
+
+  .about__table {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 1050px) {
+  .special-offer__inner {
+    display: block;
+  }
+
+  .special-offer__item {
+    width: 100%;
+  }
+
+  .special-offer__btn {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+.login {
+  margin-right: 0;
+} 
+
+ .how-to__box {
+   display: none;
+ }
+
+ .how-to__box-list {
+   display: block;
+   list-style: none;
+ }
+
+ .how-to__box-item {
+   padding-bottom: 30px;
+   text-align: left;
+   padding-left: 20px;
+   margin-left: 20px;
+   position: relative;
+   border-left: 1px solid #fff;
+ }
+
+ .how-to__box-item::before {
+   content: '';
+   position: absolute;
+   left: -10px;
+   top: 0;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: #fff;
+ }
+
+ .how-to__box-item:last-child {
+   border-left: none;
+ }
+
+ .to-book {
+   background-position: top left;
+ }
+
+.to-book__inner {
+  display: block;
+}
+
+.to-book__text {
+  width: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+.services__inner {
+  display: block;
+}
+
+.services__box-list {
+  margin-bottom: 170px;
+  margin-right: 0;
+}
+
+.services__buttons {
+  max-width: 500px;
+  width: auto;
+  margin: 0 auto;
+}
+}
+
+
+
+@media (max-width: 895px) {
+
+  .header {
+    background-position: center right;
+  }
+  .header__top {
+    padding-top: 30px;
+  }
+  .menu-btn {
+    display: block;
+  }
+
+  .menu__list {
+    transform: translateY(-150%);
+    transition: all .5s;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #010203;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu__list.active {
+    transform: translateY(0);
+  }
+
+  .menu__item {
+    padding: 15px 0;
+  }
+
+  .menu__link {
+    display: block;
+  }
+
+  .phone,
+  .login {
+    position: relative;
+    z-index: 20;
+  }
+
+  .header__content {
+    margin: 0 auto;
+  }
+
+  .header__title span {
+    font-size: 80px;
+  }
+
+  .header__description {
+    justify-content: center;
+  }
+
+  .slick-slide img {
+  max-width: 100%;
+  }
+
+  .footer__inner {
+   display: block;
+  }
+
+  .footer__text {
+    width: 100%;
+  }
+
+  .footer__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .footer__links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+ .footer__text p+p {
+    margin-bottom: 34px;
+  }
+}
+
+@media (max-width: 720px) {
+  .services {
+    padding-bottom: 50px;
+    }
+
+  .slider_inner {
+    padding: 0;
+    }
+
+  .slider_description {
+    font-size: 18px;
+    line-height: 24px;
+    }
+
+  .info {
+    padding-bottom: 50px;
+    }
+
+  .footer__text {
+    display: block;
+  }
+
+  .footer__menu {
+    display: block; 
+    margin-bottom: 70px;
+  }
+
+   .footer__links {
+    display: block;
+  } 
+
+@media (max-width: 640px) {
+  .header__title{
+    font-size: 34px;
+    line-height: 30px;
+  }
+  
+  .title {
+  padding: 51px 0;
+  font-size: 39px;
+  line-height: 37px;
+  }
+
+  .header__content {
+    text-align: center;
+  }
+
+  .header__text {
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  .header__text p {
+    padding: 0 10px;
+  }
+
+  .header__btn {
+    font-size: 18px;
+    line-height: 24px;
+    width: 60%;
+  }
+
+  .header__description {
+    display: block;
+  }
+
+  .header__description-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header__description-text+.header__description-text {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .about__item { 
+    padding-bottom: 51px;
+  }
+
+  .about__table-tr:first-child {
+    display: none;
+  }
+
+  .about__table-td {
+    display: block;
+    text-align: right;
+    border-bottom: 1px solid #fff;
+  }
+
+  .about__table-td:last-child {
+    border: none;
+  }
+
+  .about__table-td span {
+    display: inline-block;
+  }
+
+  .about__table-td::before {
+    content: attr(aria-label);
+    float: left;
+  }
+
+  .about__table-tr+.about__table-tr {
+    font-size: 25px;
+    line-height: 22px;
+    font-weight: 400;   
+  }
+
+  .services__description {
+    font-size: 9px;
+    line-height: 10px;
+  }
+
+  .services__box-list {
+  width: 100%;
+  } 
+
+  .contacts__guarantees-img {
+    max-width: 100%;
+  }
+
+  .contacts__guarantees {
+    width: 100%;
+  }
+}
+
+@media (max-width: 470px) {
+  .header__title span {
+    font-size: 60px;
+    }
+
+  .to-book {
+    background-position: center;
+    }
+
+  .special-offer__new-price {
+    font-size: 40px;
+    line-height: 38px;
+    }
+
+  .services__box-list {
+    font-size: 19px;
+    line-height: 30px;
+    }
+
+  .button {
+    font-size: 15px;
+    line-height: 21px;
+    }
+
+  .slick-dots {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+
+}
+
+@media (max-width: 360px) {
+  .header__top {
+    flex-wrap: wrap;
+  }
+  .phone {
+    width: 100%;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .menu,
+  .login {
+    order: -1;
+  }
+
+  .menu__list {
+    padding-top: 110px;
+  }
+
+  .header__title span {
+    font-size: 45px;
+  } 
+
+  .header__btn {
+    width: 100%;
+  }
+
+  .special-offer__item-box {
+    padding: 40px 24px;
+  }
+
+  .button {
+    font-size: 12px;
+    line-height: 21px;
+  }
+
+  .slider_arrow {
+    display: none;
+  }
+
+  .contacts__title {
+    font-size: 34px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .services-title {
+    font-size: 36px;
+    line-height: 22px;
+  }
+  .contacts__title {
+    font-size: 31px;
+    line-height: 22px;
+  }
+}
+}
